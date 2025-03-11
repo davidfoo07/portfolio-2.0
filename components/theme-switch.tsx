@@ -1,7 +1,7 @@
 "use client";
 
-import ThemeContextProvider, { useTheme } from "@/context/theme-context";
-import React, { useContext } from "react";
+import { useTheme } from "@/context/theme-context";
+import React from "react";
 import { BsMoon, BsSun } from "react-icons/bs";
 
 export default function ThemeSwitch() {
