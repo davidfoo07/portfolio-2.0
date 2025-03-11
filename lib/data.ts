@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import Unilah_frontpage from "@/public/Unilah_frontpage.png";
+import One2Sell_frontpage from "@/public/One2Sell_frontpage.png";
+import Dental_Software_frontpage from "@/public/Dental_Software_frontpage.png";
 
 export const links = [
     {
@@ -35,51 +35,50 @@ export const links = [
 
 export const experiencesData = [
     {
-        title: "Graduated bootcamp",
-        location: "Miami, FL",
-        description: "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+        title: "Year 3 Undergraduate",
+        location: "National University of Singapore (NUS)",
+        description: "I am currently a year 3 undergraduate majoring in computer science in NUS.",
         icon: React.createElement(LuGraduationCap),
-        date: "2019",
+        date: "2022 - Present",
     },
     {
-        title: "Front-End Developer",
-        location: "Orlando, FL",
-        description:
-            "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+        title: "Software Developer Intern",
+        location: "Kuala Lumpur, Malaysia",
+        description: "I worked as a software developer intern for 3 months in a startup called Unilah.",
         icon: React.createElement(CgWorkAlt),
-        date: "2019 - 2021",
+        date: "May - August 2024",
     },
     {
-        title: "Full-Stack Developer",
-        location: "Houston, TX",
+        title: "Freelancer",
+        location: "Singapore",
         description:
-            "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+            "I sometimes work as a frontend developer as a freenlancer if my friend's company need a big UI shift.",
         icon: React.createElement(FaReact),
-        date: "2021 - present",
+        date: "Present",
     },
 ] as const;
 
 export const projectsData = [
     {
-        title: "CorpComment",
+        title: "Unilah App",
         description:
-            "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-        tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-        imageUrl: corpcommentImg,
+            "I worked as a frontend developer on this startup project for 3 months. It is to refurbish the app with a new interface.",
+        tags: ["React Native", "Typescript", "SQL", "Tailwind", "Prisma"],
+        imageUrl: Unilah_frontpage,
     },
     {
-        title: "rmtDev",
+        title: "One2Sell",
         description:
-            "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-        tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-        imageUrl: rmtdevImg,
+            "I was a full-stack developer building this e-commerce app from scratch for my school summmer project. Users can buy or sell goods inside.",
+        tags: ["React", "Firebase", "Redux"],
+        imageUrl: One2Sell_frontpage,
     },
     {
-        title: "Word Analytics",
+        title: "Dental Software ",
         description:
-            "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-        tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-        imageUrl: wordanalyticsImg,
+            "I worked in a team of 4 over the summer break building this dental software for a friend's dentist relative to digitalise his dental care procedures.",
+        tags: ["React", "Firebase", "Tailwind", "Redux"],
+        imageUrl: Dental_Software_frontpage,
     },
 ] as const;
 
@@ -96,8 +95,6 @@ export const skillsData = [
     "Prisma",
     "MongoDB",
     "Redux",
-    "GraphQL",
-    "Apollo",
     "Express",
     "PostgreSQL",
     "Python",
