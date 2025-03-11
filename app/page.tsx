@@ -1,5 +1,3 @@
-import Image from "next/image";
-import Header from "@/components/header";
 import Intro from "@/components/intro";
 import SectionDivider from "@/components/section-divider";
 import About from "@/components/about";
